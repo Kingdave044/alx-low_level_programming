@@ -1,5 +1,13 @@
 #include "main.h"
 
+/*
+ * main - Entry point
+ *
+ * void: no arguments
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	char kingdave[] = "_putchar";
