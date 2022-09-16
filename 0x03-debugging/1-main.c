@@ -22,8 +22,3 @@ printf("Infinite loop avoided! \\o/\n");
 
 return (0);
 }
-
-
-ls
-:wq
-exit
