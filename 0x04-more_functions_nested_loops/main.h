@@ -1,6 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
 /**
  * main - header file fr prototype
  * void prototypes (void)
