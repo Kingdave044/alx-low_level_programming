@@ -1,3 +1,12 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * main - header file fr prototype
+ * void prototypes (void)
+ * int prototypes (int)
+ */
+
 int _putchar(char c);
 int isupper(int c);
 int isdigit(int c);
