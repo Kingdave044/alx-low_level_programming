@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * sqrt_recursion - computes the square root of a number
+ * _sqrt_recursion - computes the square root of a number
  * @n: integer number
  * Return: square root
  */
