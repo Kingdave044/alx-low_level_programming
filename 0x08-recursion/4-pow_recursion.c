@@ -1,6 +1,6 @@
-#include "main.h" 
+#include "main.h"
 /*
- * pow_recursion - computes the value of x raised to the power of y
+ * _pow_recursion - computes the value of x raised to the power of y
  * @x: base number
  * @y: exponential number
  * Return: returns the value of x raised to the power of y
