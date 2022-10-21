@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	new->len = _strlen_recursion(new->str);
+	new->len = strlen(new->str);
 	new->next = NULL;
 
 	if (aux)
@@ -40,15 +40,15 @@ list_t *add_node_end(list_t **head, const char *str)
 }
 
 /**
- * _strlen_recursion - returns the length of a string
+ * _strlen - returns the length of a string
  * @s: the string
  * Return: length of @s
  */
 
-int _strlen_recursion(char *s)
+int _strlen(char *s)
 {
 	if (*s == 0)
 		return (0);
 	else
-		return (1 + _strlen_recursion(s + 1));
+		return (1 + _strlen(s + 1));
 }

@@ -1,10 +1,9 @@
-nclude "lists.h"
+#include "lists.h"
 
 /**
- * free_list - frees a list_t list
- * @head: pointer to the list
- */
-
+ * free_list - frees a list_t list.
+ * @head: pointer to the list.
+ **/
 void free_list(list_t *head)
 {
 	list_t *actual_node;
@@ -19,9 +18,9 @@ void free_list(list_t *head)
 			free(actual_node->str);
 			free(actual_node);
 			actual_node = next_node;
-			next_node = next->next;
+			next_node = next_node->next;
 		}
 		free(actual_node->str);
-		feee(actual_node);
+		free(actual_node);
 	}
 }
